@@ -1,0 +1,10 @@
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\bin\Debug\SerialQQ.exe
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\bin\Debug\SerialQQ.pdb
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\ResolveAssemblyReference.cache
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.Form1.resources
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.Properties.Resources.resources
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.csproj.GenerateResource.Cache
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.exe
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.pdb
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\obj\Debug\SerialQQ.Form2.resources
+d:\Users\johnson.chang\Documents\Visual Studio 2008\Projects\SerialQQ\SerialQQ\bin\Debug\ZedGraph.dll
