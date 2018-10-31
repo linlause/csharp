@@ -467,11 +467,6 @@ namespace SerialQQ
             //stealthChop
             stealthChop = false;
 
-            //
-           // fs = new FileStream(".\\qq.txt", FileMode.Create);
-           // sw = new StreamWriter(fs);
-
-
         }
 
 
@@ -614,14 +609,7 @@ namespace SerialQQ
 		
         public void do_compensation()
         { 
-            /*
-            Array.Clear(motor1.aAngle, 0, motor1.aAngle.Length);
-            Array.Clear(motor2.aAngle, 0, motor2.aAngle.Length);
-            Array.Clear(motor1.aVelocity, 0, motor1.aVelocity.Length);
-            Array.Clear(motor2.aVelocity, 0, motor2.aVelocity.Length);
-            
-            exec_count = 0;
-             */
+
             compensation = false;
             int comAngle;
             comAngle = Convert.ToInt32(textBoxCompensation.Text);
@@ -671,14 +659,7 @@ namespace SerialQQ
         }
 
 
-/*
-        public void update_speed()
-        {
-            //iSpeed
-            trackBarASpeed.Value = iSpeed;
-            textBox_ASpeed.Text = Convert.ToString(iSpeed);
-         }
-*/
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                              button action
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1025,7 +1006,7 @@ namespace SerialQQ
 			byteArray1[4] = get_checksum(4,byteArray1);//check sum
 
             My_SerialPort.Write(byteArray1, 0, 5);
-           // MessageBox.Show(comboBox_Step.SelectedText);
+           
             lbl_step.Text = string.Format("Micro Stepping = ") + comboBox_Step.SelectedItem.ToString() + string.Format("Micro Steps");
         }
 
